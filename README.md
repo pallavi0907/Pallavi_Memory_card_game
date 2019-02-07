@@ -1,6 +1,7 @@
 # Memory Card Game Project
 
 This is a Memory Card Game project designed using HTML, CSS and Javascript.
+This game can also be played as a responsive.
 
 # Installation
 

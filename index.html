@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Title of the project -->
+    <title>Memory Game</title>
+    <!--CSS -->
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="css/app.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Memory Game</h1>
+      </header>
+        <section class="score-board">
+          <ul class="stars">
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+          </ul>
+          <span class="moves">0</span> moves
+         <span class="timer"></span>
+          <div class="Repeat">
+          <i class="fa fa-repeat"></i>
+          </div>
+         </section>
+         <ul class="card-deck">
+          <li class="card " type="instagram">
+          <i class="fa fa-instagram"></i>
+          </li>
+          <li class="card" type="arrows">
+          <i class="fa fa-arrows"></i>
+          </li>
+          <li class="card" type="barcode">
+          <i class="fa fa-barcode"></i>
+          </li>
+          <li class="card" type="twitter">
+          <i class="fa fa-twitter"></i>
+          </li>
+          <li class="card" type="facebook">
+          <i class="fa fa-facebook-official"></i>
+          </li>
+          <li class="card" type="barcode">
+          <i class="fa fa-barcode"></i>
+          </li>
+          <li class="card" type="calculator">
+          <i class="fa fa-calculator"></i>
+          </li>
+          <li class="card" type="binoculars">
+          <i class="fa fa-binoculars"></i>
+          </li>
+          <li class="card" type="instagram">
+          <i class="fa fa-instagram"></i>
+          </li>
+          <li class="card" type="fighter-jet">
+          <i class="fa fa-fighter-jet"></i>
+          </li>
+          <li class="card" type="calculator">
+          <i class="fa fa-calculator"></i>
+          </li>
+          <li class="card" type="fighter-jet">
+          <i class="fa fa-fighter-jet"></i>
+          </li>
+          <li class="card" type="twitter">
+          <i class="fa fa-twitter"></i>
+          </li>
+          <li class="card" type="binoculars">
+          <i class="fa fa-binoculars"></i>
+          </li>
+          <li class="card" type="arrows">
+          <i class="fa fa-arrows"></i>
+          </li>
+          <li class="card" type="facebook">
+          <i class="fa fa-facebook-official"></i>
+          </li>
+        </ul>
+     </div>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+          <a class="close" href="#">×</a>
+          <div class="middle">
+            <h2>Congratulations,You are winner </h2>
+          </div>
+            <div class="message">
+            <p>You made <span class="final-moves"></span> moves in <span class="total-time"></span></p>
+            <p>Rating:<span class=starRating></span></p>
+            </div>
+          <button class="play-again">Play Again</button>
+          </div>
+        </div>
+         <!-- script -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
